@@ -1,7 +1,7 @@
-extends ../templates/main-layout
+extends ../layouts/main/_main
 
 block variables
-  - const title = 'Главная'
+    - const title = 'Главная'
 
 block content
-  include ../sections/index/_index
+    include ../components/public/IndexPage/_index
